@@ -48,7 +48,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
  * |------+------+------+------+------+-------------+------+------+------+------+------|
  * | Del  |  F1  |  F2  |  F3  |  F4  |  F5  |  F6  |   )  |   -  |   ù  |   µ  |      |
  * |------+------+------+------+------+------|------+------+------+------+------+------|
- * |      |  F7  |  F8  |  F9  |  F10 |  F11 |  F12 |   ^  |   $  |  End | Home |      |
+ * |      |  F7  |  F8  |  F9  |  F10 |  F11 |  F12 |   ^  |   $  | Home |  End |      |
  * |------+------+------+------+------+------+------+------+------+------+------+------|
  * | Brite|      |      |      |      |             |      | Next | Vol- | Vol+ | Play |
  * `-----------------------------------------------------------------------------------'
@@ -56,7 +56,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 [_LOWER] = LAYOUT_planck_grid(
     BE_SUP2, BE_AMP,  BE_EACU, BE_QUOT, BE_APOS, BE_LPRN, BE_PARA, BE_EGRV, BE_EXLM, BE_CCED, BE_AGRV, KC_BSPC,
     KC_DEL,  KC_F1,   KC_F2,   KC_F3,   KC_F4,   KC_F5,   KC_F6,   BE_RPRN, BE_MINS, BE_UGRV, BE_MU,   _______,
-    _______, KC_F7,   KC_F8,   KC_F9,   KC_F10,  KC_F11,  KC_F12,  BE_CIRC, BE_DLR,  KC_PGDN, KC_PGUP, _______,
+    _______, KC_F7,   KC_F8,   KC_F9,   KC_F10,  KC_F11,  KC_F12,  BE_CIRC, BE_DLR,  KC_HOME, KC_END,  _______,
     BACKLIT, _______, _______, _______, _______, _______, _______, _______, KC_MNXT, KC_VOLD, KC_VOLU, KC_MPLY
 ),
 
@@ -74,7 +74,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 [_RAISE] = LAYOUT_planck_grid(
     KC_TILD, BE_1,    BE_2,    BE_3,    BE_4,    BE_5,    BE_6,    BE_7,    BE_8,    BE_9,    BE_0,    KC_BSPC,
     KC_DEL,  KC_F1,   KC_F2,   KC_F3,   KC_F4,   KC_F5,   KC_F6,   BE_OVRR, BE_UNDS, BE_PERC, KC_PIPE, _______,
-    _______, KC_F7,   KC_F8,   KC_F9,   KC_F10,  KC_F11,  KC_F12,  BE_UMLT, BE_PND, KC_END,  KC_HOME, _______,
+    _______, KC_F7,   KC_F8,   KC_F9,   KC_F10,  KC_F11,  KC_F12,  BE_UMLT, BE_PND,  KC_PGUP, KC_PGDN, _______,
     _______, _______, _______, _______, _______, _______, _______, _______, KC_MNXT, KC_VOLD, KC_VOLU, KC_MPLY
 ),
 
