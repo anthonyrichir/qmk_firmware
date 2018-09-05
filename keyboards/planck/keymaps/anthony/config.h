@@ -4,7 +4,7 @@
 #include "config_common.h"
 
 #ifdef AUDIO_ENABLE
-    #define STARTUP_SONG SONG(PLANCK_SOUND)
+    #define STARTUP_SONG SONG(MARIO_THEME)
     // #define STARTUP_SONG SONG(NO_SOUND)
 
     #define DEFAULT_LAYER_SONGS { SONG(QWERTY_SOUND), \
@@ -40,7 +40,9 @@
 // Most tactile encoders have detents every 4 stages
 #define ENCODER_RESOLUTION 4
 
-// #define LSPO_KEY LSFT(KC_COMM)
-// #define RSPC_KEY KC_RPRN
+#define LSPO_KEY KC_5
+#define RSPC_KEY KC_MINS
+
+#define DISABLE_SPACE_CADET_MODIFIER
 
 #endif
